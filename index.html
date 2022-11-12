@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Condicionales Js</title>
+  </head>
+  <body>
+    <section class="parte-1">
+      <h2>Parte 1: Agrégale borde a la imagen</h2>
+      <img src="assets/imgs/img500x500.jpg" alt="Puente" id="imagen" />
+    </section>
+
+    <section class="parte-2">
+      <h2>Parte 2: ¡Puedes llevar hasta 10 stickers!</h2>
+      <article class="stickers-box">
+        <div class="sticker-select">
+          <img src="assets/imgs/sticker1.jpg" width="500" alt="Sticker 1" />
+          <input type="number" value="0" id="contador1" />
+        </div>
+        <div class="sticker-select">
+          <img src="assets/imgs/sticker2.jpg" width="500" alt="Sticker 2" />
+          <input type="number" value="0" id="contador2" />
+        </div>
+        <div class="sticker-select">
+          <img src="assets/imgs/sticker3.jpg" width="500" alt="Sticker 3" />
+          <input type="number" value="0" id="contador3" />
+        </div>
+      </article>
+      <article class="submit-box">
+        <p id="message"></p>
+        <button id="button">Verificar</button>
+      </article>
+    </section>
+
+    <section class="parte-3">
+      <h2>Parte 3: Adivina la contraseña</h2>
+      <article class="pass-box">
+        <article class="number-select">
+          <div>
+            <select id="digit-1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+            </select>
+            <select id="digit-2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+            </select>
+            <select id="digit-3">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+            </select>
+          </div>
+          <button id="button2">Ingresar</button>
+        </article>
+        <article>
+          <p id="message2"></p>
+        </article>
+      </article>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

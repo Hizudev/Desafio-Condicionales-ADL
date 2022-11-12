@@ -1,0 +1,53 @@
+body{
+    background-color: #4649FF;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: xx-large;
+}
+section{
+    margin-bottom: 2rem;
+}
+
+/* PARTE 1 */
+
+.parte-1{
+    text-align: center;
+}
+
+/* PARTE 2 */
+
+.parte-2{
+    text-align: center;
+}
+
+.stickers-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stickers-box img{
+    margin-bottom: 0.5rem;
+    border: solid 2px #1D1CE5;
+}
+
+.sticker-select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* PARTE 3 */
+
+.parte-3{
+    text-align: center;
+}
+
+.number-select{
+    display: flex;
+    flex-direction: column;
+}
+
+.pass-box{
+    display: flex;
+    justify-content: space-around;
+}
